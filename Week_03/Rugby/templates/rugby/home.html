@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rugby Teams</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 950px; margin: 30px auto; padding: 0 16px; color: #222; }
+        header { background: #173b2b; color: white; padding: 22px; border-radius: 8px; }
+        a { color: #176b43; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background: #e8f1eb; }
+        .empty { padding: 18px; background: #f5f5f5; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rugby Teams and Players</h1>
+        <p>A simple Django site for viewing players and their positions.</p>
+    </header>
+
+    <p><a href="/admin/">Open the Django Admin site</a> to add or edit players and positions.</p>
+
+    {% if players %}
+        <table>
+            <thead>
+                <tr><th>Player</th><th>Team</th><th>Positions</th></tr>
+            </thead>
+            <tbody>
+                {% for player in players %}
+                    <tr>
+                        <td>{{ player.first_name }} {{ player.last_name }}</td>
+                        <td>{{ player.team }}</td>
+                        <td>
+                            {% for position in player.positions.all %}
+                                {{ position.name }}{% if position.specialist %} (Specialist){% endif %}{% if not forloop.last %}, {% endif %}
+                            {% empty %}
+                                Not assigned
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <div class="empty">No players have been added yet. Add positions and players through the <a href="/admin/">admin site</a>.</div>
+    {% endif %}
+</body>
+</html>
