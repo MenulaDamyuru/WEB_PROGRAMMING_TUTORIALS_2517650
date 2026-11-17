@@ -1,0 +1,121 @@
+fname,lname,age,email,enrolment date,modules
+Grace,PATEL,25,grace.patel0@student.aru.ac.uk,08/03/2021,MOD002691
+Jonas,WOOD,18,jonas.wood1@student.aru.ac.uk,03/04/2022,MOD002619| MOD003212| MOD003484
+Willow,HUGHES,24,willow.hughes2@student.aru.ac.uk,23/11/2025,MOD003484
+Lena,BROWN,18,lena.brown3@student.aru.ac.uk,25/03/2024,MOD003484| MOD002691
+Arjun,TAYLOR,28,arjun.taylor4@student.aru.ac.uk,04/02/2024,MOD002643
+Priya,EVANS,19,priya.evans5@student.aru.ac.uk,24/08/2025,MOD003484| MOD002691
+Mateo,HILL,29,mateo.hill6@student.aru.ac.uk,19/04/2021,MOD002619| MOD002691
+Amelia,GREEN,20,amelia.green7@student.aru.ac.uk,28/04/2021,MOD002691
+Ivy,TAYLOR,29,ivy.taylor8@student.aru.ac.uk,12/04/2023,MOD002691| MOD002643
+Andrew,HILL,23,andrew.hill9@student.aru.ac.uk,18/12/2022,MOD003484
+Chen,WALKER,28,chen.walker10@student.aru.ac.uk,27/01/2022,MOD002691| MOD002643
+Amelia,MARTIN,20,amelia.martin11@student.aru.ac.uk,07/10/2023,MOD003212| MOD002691
+Ethan,EDWARDS,22,ethan.edwards12@student.aru.ac.uk,09/03/2022,MOD003212| MOD003484
+Brandon,THOMPSON,30,brandon.thompson13@student.aru.ac.uk,12/04/2022,MOD002691| MOD003212| MOD003484
+Willow,WRIGHT,21,willow.wright14@student.aru.ac.uk,05/11/2022,MOD002619
+Jonas,ROBERTS,32,jonas.roberts15@student.aru.ac.uk,17/05/2025,MOD002619| MOD003212| MOD002643
+Connie,GREEN,26,connie.green16@student.aru.ac.uk,25/11/2023,MOD003484
+Mateo,WILSON,18,mateo.wilson17@student.aru.ac.uk,24/12/2023,MOD002643| MOD003212
+Willow,HARRIS,21,willow.harris18@student.aru.ac.uk,28/11/2023,MOD003484
+Grace,ROBINSON,23,grace.robinson19@student.aru.ac.uk,18/09/2021,MOD002643| MOD003484| MOD003212
+Elena,DAVIES,29,elena.davies20@student.aru.ac.uk,27/05/2022,MOD002619| MOD003484
+Freddie,BROWN,33,freddie.brown21@student.aru.ac.uk,27/02/2025,MOD002619| MOD003484| MOD002691
+Alexandra,NGUYEN,23,alexandra.nguyen22@student.aru.ac.uk,09/09/2025,MOD003212
+Milo,MÜLLER,29,milo.muller23@student.aru.ac.uk,15/09/2024,MOD002643| MOD002691| MOD003484
+Mateo,BROWN,28,mateo.brown24@student.aru.ac.uk,01/10/2025,MOD002619
+Maya,WHITE,20,maya.white25@student.aru.ac.uk,23/11/2021,MOD002619
+Maya,OKAFOR,20,maya.okafor26@student.aru.ac.uk,17/04/2023,MOD002691
+Ines,WRIGHT,22,ines.wright27@student.aru.ac.uk,24/10/2025,MOD003484
+Tara,BROWN,21,tara.brown28@student.aru.ac.uk,04/11/2024,MOD003212| MOD002643
+Chloe,ROBERTS,21,chloe.roberts29@student.aru.ac.uk,02/07/2023,MOD003212| MOD002619
+Priya,BROWN,32,priya.brown30@student.aru.ac.uk,05/07/2022,MOD002643
+Dylan,WALKER,32,dylan.walker31@student.aru.ac.uk,26/09/2021,MOD002619
+Freddie,EDWARDS,23,freddie.edwards32@student.aru.ac.uk,14/08/2024,MOD002619| MOD003484| MOD003212
+Ethan,CLARKE,30,ethan.clarke33@student.aru.ac.uk,01/07/2023,MOD002619| MOD002643
+Sam,WILSON,22,sam.wilson34@student.aru.ac.uk,07/05/2022,MOD003484| MOD003212
+Freddie,WHITE,19,freddie.white35@student.aru.ac.uk,19/08/2025,MOD002619| MOD002691| MOD003484
+Yusuf,GARCIA,20,yusuf.garcia36@student.aru.ac.uk,28/03/2021,MOD003484
+Elena,OKAFOR,21,elena.okafor37@student.aru.ac.uk,19/04/2025,MOD003212
+Elena,SMITH,34,elena.smith38@student.aru.ac.uk,11/05/2022,MOD002619| MOD003212| MOD002691
+Ines,HALL,30,ines.hall39@student.aru.ac.uk,05/11/2023,MOD002643| MOD002691
+Sam,DAVIES,32,sam.davies40@student.aru.ac.uk,20/10/2021,MOD002619
+Isla,THOMPSON,26,isla.thompson41@student.aru.ac.uk,05/06/2021,MOD003484
+Lucas,EVANS,27,lucas.evans42@student.aru.ac.uk,20/11/2025,MOD002643| MOD003212
+Connie,GREEN,26,connie.green43@student.aru.ac.uk,04/02/2025,MOD002691| MOD002619| MOD003212
+Liam,TAYLOR,28,liam.taylor44@student.aru.ac.uk,07/11/2023,MOD003484| MOD002643
+Willow,WRIGHT,31,willow.wright45@student.aru.ac.uk,27/05/2021,MOD002619| MOD003484
+Connie,DAVIES,23,connie.davies46@student.aru.ac.uk,24/08/2025,MOD002691
+Sandra,ROBERTS,22,sandra.roberts47@student.aru.ac.uk,18/01/2023,MOD002619| MOD003484| MOD003212
+Dev,THOMPSON,22,dev.thompson48@student.aru.ac.uk,02/05/2023,MOD003212
+Amelia,TURNER,21,amelia.turner49@student.aru.ac.uk,12/09/2024,MOD002643| MOD003484
+Finn,WOOD,23,finn.wood50@student.aru.ac.uk,26/03/2024,MOD002643
+Joshua,GARCIA,26,joshua.garcia51@student.aru.ac.uk,06/12/2021,MOD003212| MOD002643
+Ivy,CLARKE,25,ivy.clarke52@student.aru.ac.uk,07/08/2023,MOD003212
+Omar,JACKSON,18,omar.jackson53@student.aru.ac.uk,22/04/2024,MOD002643
+Arjun,TAYLOR,29,arjun.taylor54@student.aru.ac.uk,21/09/2024,MOD002691
+Jonas,JACKSON,26,jonas.jackson55@student.aru.ac.uk,06/10/2023,MOD002691| MOD002619| MOD003212
+Amelia,PATEL,28,amelia.patel56@student.aru.ac.uk,14/10/2025,MOD003212| MOD002691| MOD003484
+Mateo,THOMAS,31,mateo.thomas57@student.aru.ac.uk,01/09/2025,MOD002643| MOD002691| MOD002619
+Jonas,WOOD,31,jonas.wood58@student.aru.ac.uk,03/11/2023,MOD002691
+Finn,DAVIES,34,finn.davies59@student.aru.ac.uk,10/11/2024,MOD002691
+Freya,THOMAS,24,freya.thomas60@student.aru.ac.uk,14/11/2024,MOD003484| MOD002643
+Jonas,WOOD,27,jonas.wood61@student.aru.ac.uk,13/09/2021,MOD003484
+Omar,WILSON,28,omar.wilson62@student.aru.ac.uk,15/08/2024,MOD003212
+Jonas,MÜLLER,20,jonas.muller63@student.aru.ac.uk,10/09/2025,MOD003212| MOD002643| MOD002691
+Arjun,OKAFOR,25,arjun.okafor64@student.aru.ac.uk,26/04/2022,MOD002691
+Joshua,SMITH,20,joshua.smith65@student.aru.ac.uk,15/07/2025,MOD003212
+Noah,HALL,25,noah.hall66@student.aru.ac.uk,05/11/2021,MOD003212| MOD003484
+Leanne,CLARKE,25,leanne.clarke67@student.aru.ac.uk,06/12/2025,MOD003212
+Sam,SMITH,22,sam.smith68@student.aru.ac.uk,26/08/2025,MOD002643| MOD002619| MOD003484
+Ben,HUGHES,32,ben.hughes69@student.aru.ac.uk,06/12/2024,MOD003212| MOD003484
+Ruby,TAYLOR,34,ruby.taylor70@student.aru.ac.uk,16/11/2022,MOD002691
+Dylan,WALKER,25,dylan.walker71@student.aru.ac.uk,09/06/2023,MOD002691
+Anna,OKAFOR,25,anna.okafor72@student.aru.ac.uk,13/12/2022,MOD002643
+Sandra,MÜLLER,31,sandra.muller73@student.aru.ac.uk,11/09/2024,MOD003212
+Lena,SMITH,30,lena.smith74@student.aru.ac.uk,25/10/2021,MOD003212
+Leanne,WHITE,29,leanne.white75@student.aru.ac.uk,10/07/2024,MOD003212| MOD002619
+Anna,WOOD,25,anna.wood76@student.aru.ac.uk,09/07/2024,MOD003484| MOD002643| MOD003212
+Joshua,THOMAS,32,joshua.thomas77@student.aru.ac.uk,05/10/2025,MOD003212| MOD002643
+Joshua,HILL,20,joshua.hill78@student.aru.ac.uk,21/07/2022,MOD003484| MOD002619
+Sam,GARCIA,30,sam.garcia79@student.aru.ac.uk,11/04/2024,MOD002691
+Freya,DAVIES,26,freya.davies80@student.aru.ac.uk,27/02/2024,MOD002691| MOD003212
+Joshua,WOOD,20,joshua.wood81@student.aru.ac.uk,25/11/2021,MOD002619| MOD002691| MOD003484
+Leanne,JAMES,18,leanne.james82@student.aru.ac.uk,20/03/2022,MOD002643
+Sofia,WRIGHT,24,sofia.wright83@student.aru.ac.uk,15/12/2023,MOD003484
+Alexandra,EVANS,21,alexandra.evans84@student.aru.ac.uk,25/03/2023,MOD003484
+Priya,WHITE,30,priya.white85@student.aru.ac.uk,13/12/2022,MOD002691
+Isla,WHITE,27,isla.white86@student.aru.ac.uk,28/11/2025,MOD002619
+Mateo,MARTIN,31,mateo.martin87@student.aru.ac.uk,22/06/2021,MOD002619| MOD002691| MOD003212
+Willow,EDWARDS,33,willow.edwards88@student.aru.ac.uk,04/07/2023,MOD002619| MOD003212
+Grace,TURNER,23,grace.turner89@student.aru.ac.uk,24/09/2023,MOD002643| MOD003212
+Finn,MARTIN,26,finn.martin90@student.aru.ac.uk,11/04/2021,MOD003212| MOD003484| MOD002643
+Dylan,TURNER,30,dylan.turner91@student.aru.ac.uk,11/01/2024,MOD002643| MOD003212
+Freya,GARCIA,26,freya.garcia92@student.aru.ac.uk,11/05/2025,MOD002643| MOD002691
+Andrew,TURNER,34,andrew.turner93@student.aru.ac.uk,07/02/2022,MOD003484| MOD002619
+Mandy,ROBERTS,33,mandy.roberts94@student.aru.ac.uk,21/12/2024,MOD003484| MOD002643
+Ruby,MARTIN,27,ruby.martin95@student.aru.ac.uk,08/07/2022,MOD002619
+Omar,GREEN,34,omar.green96@student.aru.ac.uk,12/07/2025,MOD002691| MOD003212| MOD003484
+Arjun,EVANS,26,arjun.evans97@student.aru.ac.uk,08/02/2022,MOD002691| MOD003484
+Freya,PATEL,33,freya.patel98@student.aru.ac.uk,09/12/2025,MOD002643| MOD003484| MOD002619
+Leanne,ROBINSON,27,leanne.robinson99@student.aru.ac.uk,08/06/2022,MOD002691| MOD002619| MOD003212
+Omar,JAMES,19,omar.james100@student.aru.ac.uk,18/05/2022,MOD002643| MOD002691| MOD002619
+Grace,CLARKE,27,grace.clarke101@student.aru.ac.uk,16/08/2024,MOD002619| MOD003484
+Arjun,GARCIA,33,arjun.garcia102@student.aru.ac.uk,04/02/2024,MOD002691
+Viktor,OKAFOR,27,viktor.okafor103@student.aru.ac.uk,03/04/2021,MOD002619| MOD002643| MOD003484
+Ben,HARRIS,34,ben.harris104@student.aru.ac.uk,13/08/2024,MOD003484| MOD002643
+Omar,CLARKE,19,omar.clarke105@student.aru.ac.uk,20/12/2021,MOD003212| MOD002691| MOD003484
+Leanne,MÜLLER,20,leanne.muller106@student.aru.ac.uk,06/04/2022,MOD002691
+Ben,OKAFOR,31,ben.okafor107@student.aru.ac.uk,15/12/2025,MOD002619
+Tara,WILSON,27,tara.wilson108@student.aru.ac.uk,23/05/2024,MOD002643
+Isla,GREEN,24,isla.green109@student.aru.ac.uk,14/02/2025,MOD002691
+Maya,EDWARDS,22,maya.edwards110@student.aru.ac.uk,03/01/2022,MOD002691
+Omar,HUGHES,32,omar.hughes111@student.aru.ac.uk,23/05/2024,MOD002691| MOD003212| MOD002619
+Dylan,ROBINSON,19,dylan.robinson112@student.aru.ac.uk,14/12/2023,MOD003212| MOD003484| MOD002619
+Elena,TAYLOR,25,elena.taylor113@student.aru.ac.uk,22/10/2025,MOD002619
+Joshua,HARRIS,23,joshua.harris114@student.aru.ac.uk,16/09/2024,MOD003484| MOD002619
+Dylan,GARCIA,33,dylan.garcia115@student.aru.ac.uk,12/07/2023,MOD003212| MOD003484| MOD002619
+Freya,GREEN,28,freya.green116@student.aru.ac.uk,14/12/2024,MOD002643
+Nina,GREEN,32,nina.green117@student.aru.ac.uk,03/06/2023,MOD003484| MOD002619
+Freya,PATEL,32,freya.patel118@student.aru.ac.uk,14/01/2022,MOD003484| MOD002619
+Yusuf,EVANS,24,yusuf.evans119@student.aru.ac.uk,09/09/2022,MOD003212| MOD003484| MOD002619
