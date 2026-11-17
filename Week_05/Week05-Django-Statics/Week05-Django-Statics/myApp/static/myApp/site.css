@@ -1,0 +1,20 @@
+/* Small additions on top of Bootstrap. */
+body {
+    background: #f4f6f8;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.student-photo {
+    max-width: 260px;
+    border-radius: 10px;
+    border: 1px solid #d7dee5;
+}
+
+table.table {
+    background: #fff;
+}

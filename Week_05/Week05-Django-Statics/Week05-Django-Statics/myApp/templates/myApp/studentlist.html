@@ -1,0 +1,72 @@
+{% extends "myApp/base.html" %}
+
+{% block title %}Students &middot; My University{% endblock %}
+
+{% block content %}
+    <h2>Students Enrolled</h2>
+    <p class="text-body-secondary">
+        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+        &middot; {{ page_obj.paginator.count }} students
+    </p>
+
+    <table class="table table-striped table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">Modules</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for student in page_obj %}
+            <tr>
+                <th scope="row">
+                    <a href="{% url 'myApp:student_detail' student.id %}">{{ student.id }}</a>
+                </th>
+                <td>{{ student.firstName|capfirst }}</td>
+                <td>{{ student.lastName|upper }}</td>
+                <td>{{ student.age }}</td>
+                <td>
+                    {% for module in student.modules.all %}
+                        <span class="badge text-bg-light">{{ module.code }}</span>
+                    {% endfor %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <nav aria-label="Student pages">
+        <ul class="pagination justify-content-center">
+            {% if page_obj.has_previous %}
+                <li class="page-item">
+                    <a class="page-link" href="{% url 'myApp:studentlist' page_obj.previous_page_number %}">Previous</a>
+                </li>
+            {% else %}
+                <li class="page-item disabled"><span class="page-link">Previous</span></li>
+            {% endif %}
+
+            {% for num in page_obj.adjusted_elided_pages %}
+                {% if num == page_obj.paginator.ELLIPSIS %}
+                    <li class="page-item disabled"><span class="page-link">{{ num }}</span></li>
+                {% elif num == page_obj.number %}
+                    <li class="page-item active"><span class="page-link">{{ num }}</span></li>
+                {% else %}
+                    <li class="page-item">
+                        <a class="page-link" href="{% url 'myApp:studentlist' num %}">{{ num }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+
+            {% if page_obj.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="{% url 'myApp:studentlist' page_obj.next_page_number %}">Next</a>
+                </li>
+            {% else %}
+                <li class="page-item disabled"><span class="page-link">Next</span></li>
+            {% endif %}
+        </ul>
+    </nav>
+{% endblock %}

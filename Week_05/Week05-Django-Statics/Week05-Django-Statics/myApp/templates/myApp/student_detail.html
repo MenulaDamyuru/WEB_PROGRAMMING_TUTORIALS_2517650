@@ -1,0 +1,40 @@
+{% extends "myApp/base.html" %}
+
+{% block title %}{{ student.firstName|capfirst }} {{ student.lastName|upper }}{% endblock %}
+
+{% block content %}
+    <h2>{{ student.firstName|capfirst }} {{ student.lastName|upper }}</h2>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            {% if student.image %}
+                <img class="student-photo" src="{{ student.image.url }}"
+                     alt="Photograph of {{ student.firstName }} {{ student.lastName }}">
+            {% else %}
+                <p class="text-body-secondary">No photograph on file.</p>
+            {% endif %}
+        </div>
+        <div class="col-md-8">
+            <table class="table">
+                <tbody>
+                    <tr><th scope="row">Student number</th><td>{{ student.id }}</td></tr>
+                    <tr><th scope="row">Age</th><td>{{ student.age }}</td></tr>
+                    <tr><th scope="row">Email</th><td>{{ student.email|default:"&mdash;" }}</td></tr>
+                    <tr><th scope="row">Enrolment date</th>
+                        <td>{{ student.enrolmentDate|date:"j F Y, H:i" }}</td></tr>
+                    <tr><th scope="row">Modules</th>
+                        <td>
+                            {% for module in student.modules.all %}
+                                {{ module.code }} &mdash; {{ module.name }}<br>
+                            {% empty %}
+                                Not enrolled on any modules.
+                            {% endfor %}
+                        </td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <p class="mt-4"><a class="btn btn-outline-secondary"
+        href="{% url 'myApp:studentlist' 1 %}">&larr; Back to the student list</a></p>
+{% endblock %}
