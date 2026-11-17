@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery &middot; Riverside Rowing Club</title>
+    <!-- External CSS only - no inline styles, no JavaScript, no frameworks -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <img class="logo" src="images/aru.jpg" alt="Riverside Rowing Club crest">
+            <div>
+                <h1 class="site-title">Riverside Rowing Club</h1>
+                <p class="site-tagline">Rowing on the River Cam since 1908</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About the club</a></li>
+            <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main class="layout">
+        <div>
+            <div class="card">
+                <h2>Gallery</h2>
+                <p>
+                    A few photographs from the last season. The grid below reflows from three
+                    columns on a desktop to a single column on a phone &mdash; every image keeps
+                    its aspect ratio and is always fully visible.
+                </p>
+                <ul class="gallery">
+                    <li>
+                        <figure>
+                            <img src="images/Picture1.jpg" alt="Eights racing past the boathouse">
+                            <figcaption>Autumn head race, 4.6 km course.</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/Picture2.jpg" alt="Crew lifting a boat above their heads">
+                            <figcaption>Boat loading after a training paddle.</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/Picture3.jpg" alt="Single sculler training at dusk">
+                            <figcaption>A single sculler working on technique.</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="images/aru.jpg" alt="Club crest on the boathouse wall">
+                            <figcaption>The crest above the boathouse door.</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <aside class="sidebar">
+            <div class="card sidebar">
+                <h3>How this page is built</h3>
+                <ul>
+                    <li>One external stylesheet (<code>css/style.css</code>)</li>
+                    <li>CSS Grid for the layout and the gallery</li>
+                    <li>Media queries at 900px and 600px</li>
+                    <li><code>max-width: 100%</code> on every image</li>
+                    <li>No JavaScript, no CSS frameworks</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <h4>The club</h4>
+                <p>Riverside Rowing Club<br>12 Midsummer Common<br>Cambridge CB4 1HA</p>
+            </div>
+            <div>
+                <h4>Boating times</h4>
+                <p>Weekdays 06:00 &ndash; 20:00<br>Saturdays 07:00 &ndash; 18:00<br>Sundays 08:00 &ndash; 16:00</p>
+            </div>
+            <div>
+                <h4>Links</h4>
+                <p>
+                    <a href="index.html">Home</a><br>
+                    <a href="about.html">About the club</a><br>
+                    <a href="gallery.html">Gallery</a>
+                </p>
+            </div>
+        </div>
+        <p class="colophon">&copy; 2026 Riverside Rowing Club &middot; MOD002619 Web Programming, Week 01 tutorial.</p>
+    </footer>
+</body>
+</html>
