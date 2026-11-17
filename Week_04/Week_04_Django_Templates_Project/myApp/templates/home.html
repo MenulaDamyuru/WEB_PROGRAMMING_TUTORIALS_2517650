@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Home | My University{% endblock %}
+{% block content %}
+    <h2>Student Directory</h2>
+    <p>Select a student to view their details and modules.</p>
+    <ul>
+        {% for student in students %}
+            <li>
+                <a href="{% url 'student_detail' student.id %}">
+                    {{ student.firstName|capfirst }} {{ student.lastName|upper }}
+                </a>
+            </li>
+        {% empty %}
+            <li>No students have been added yet.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
