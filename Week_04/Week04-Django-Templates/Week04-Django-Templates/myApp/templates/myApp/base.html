@@ -1,0 +1,25 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}My University{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'myApp/site.css' %}">
+</head>
+<body>
+    <!-- Common header, defined once here and inherited by every page -->
+    <header>
+        <h1>My University</h1>
+        <p class="tagline">MOD002619 Web Programming &mdash; Week 04 templates</p>
+    </header>
+
+    {% block content %}
+    {% endblock %}
+
+    <!-- Common footer -->
+    <footer>
+        <p>My footer from base.html &middot; {{ students|length }} student(s) on this page</p>
+    </footer>
+</body>
+</html>
