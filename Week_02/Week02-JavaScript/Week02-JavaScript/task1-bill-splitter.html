@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task 1 - Bill splitter &middot; Week 02 JavaScript</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Week 02 &mdash; JavaScript Worksheet</h1>
+        <p>Bill splitter worksheet &middot; MOD002619 Web Programming</p>
+    </header>
+
+    <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="task1-bill-splitter.html" class="active">Task 1 &middot; Bill splitter</a></li>
+            <li><a href="task2-menu-bill.html">Task 2 &middot; Menu bill</a></li>
+            <li><a href="task3-todo.html">Task 3 &middot; To-do list</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="card">
+            <h2>Task 1 &mdash; Bill splitter</h2>
+
+            <div id="formErrors" role="alert">
+                <strong>Please fix the following:</strong>
+                <ul id="formErrorList"></ul>
+            </div>
+
+            <div class="field">
+                <label for="billAmount">Total bill amount (&pound;)</label>
+                <input id="billAmount" type="number" step="0.01" min="0" placeholder="e.g. 84.50">
+                <p class="error" id="billAmount-error"></p>
+            </div>
+
+            <div class="field">
+                <label for="tipRate">Tip rate</label>
+                <select id="tipRate">
+                    <option value="0">0%</option>
+                    <option value="5">5%</option>
+                    <option value="10" selected>10%</option>
+                    <option value="15">15%</option>
+                    <option value="20">20%</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="numPeople">Number of people</label>
+                <input id="numPeople" type="number" step="1" min="1" placeholder="e.g. 4">
+                <p class="error" id="numPeople-error"></p>
+            </div>
+
+            <button type="button" id="calculate">Calculate split</button>
+            <button type="button" id="reset" class="secondary">Clear messages</button>
+
+            <div class="result hidden" id="result">
+                <dl class="summary">
+                    <dt>Bill</dt><dd id="outBill">&pound;0.00</dd>
+                    <dt>Tip rate</dt><dd id="outTipRate">0%</dd>
+                    <dt>Tip amount</dt><dd id="outTipAmount">&pound;0.00</dd>
+                    <dt>Total with tip</dt><dd id="outTotal">&pound;0.00</dd>
+                    <dt>Split between</dt><dd id="outPeople">1</dd>
+                </dl>
+                <p>Each person pays <span class="total" id="outPerPerson">&pound;0.00</span></p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- All logic lives in external JavaScript files -->
+    <script src="js/billsplitter.js"></script>
+</body>
+</html>
